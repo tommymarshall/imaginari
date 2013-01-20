@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	background: #e8e7e2;
+	color: #333;
+	font: 15px/1.6 "Helvetica Neue", "Helvetica", "Arial";
+}
+
+.wrapper {
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	margin: 15px auto;
+	max-width: 2400px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+a,
+strong {
+	color: #427843;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	font-weight: 200;
+	margin-bottom: 5px;
+}
+
+p {
+	margin: 0 auto 15px;
+	max-width: 600px;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+}
