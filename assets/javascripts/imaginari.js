@@ -2,7 +2,7 @@ var Imaginari = (function (){
 	var breakpoints = [2400, 1800, 1600, 1400, 980, 768, 480]; // High to low
 	var currentBreakpoint = -1;
 	var screenWidth;
-	var pixelRatio = ("devicePixelRatio" in window ? "," + devicePixelRatio : ",1");
+	var pixelRatio = ("devicePixelRatio" in window ? "," +devicePixelRatio : ",1");
 
 	init = function () {
 		this.binds();

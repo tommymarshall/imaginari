@@ -1,13 +1,5 @@
-# Base Starter Template
+## imaginari
 
-By Tommy Marshall
+**imaginari** is a Javascript and backend technique that utilizes cookies and server-side image resizing to serve the most appropriate image to the user without the use of the unsupported (for now) <picture> element, polyfills, and other techniques.
 
-## Description
-
-Used on personal projects. Includes my personal starter templates, mixins, folder structure, etc.
-
-## Includes
-
-* images
-* javascripts
-* stylesheets
+Check out the index.html for additional explanation and examples.
