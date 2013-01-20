@@ -3,8 +3,8 @@
   RewriteEngine On
 
   # Don't process images in below folders
-  RewriteCond %{REQUEST_URI} !assets
-  RewriteCond %{REQUEST_URI} !uploads/_cache
+  RewriteCond %{REQUEST_URI} !^/assets/images
+  RewriteCond %{REQUEST_URI} !^/uploads/_cache
 
   # Process image
   RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
