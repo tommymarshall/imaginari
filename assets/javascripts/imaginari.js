@@ -25,7 +25,7 @@ var Imaginari = (function (){
 	},
 
 	updateImages = function() {
-		var images = document.getElementsByTagName( 'img' );
+		var images = document.images;
 
 		for ( var i = 0; i < images.length; i++ ) {
 			if ( images[i].src.indexOf( 'assets' ) === -1 ) {
