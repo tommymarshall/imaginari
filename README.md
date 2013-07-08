@@ -4,7 +4,7 @@
 
 ### Usage
 
-Throw
+Throw Trevor in the trash.
 
 ### To Do
 
